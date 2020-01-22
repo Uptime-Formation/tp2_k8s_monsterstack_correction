@@ -10,8 +10,7 @@ spec:
   selector:
     app: monsterstack 
     tier: monstericon
-#   clusterIP: None
-  type: NodePort
+  type: LoadBalancer
 ---
 apiVersion: apps/v1
 kind: Deployment
