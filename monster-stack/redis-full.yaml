@@ -12,8 +12,8 @@ spec:
   selector:
     app: monsterstack 
     tier: redis
-#   clusterIP: None
-  type: NodePort
+  # clusterIP: None
+  type: ClusterIP
 
 ---
 apiVersion: apps/v1
